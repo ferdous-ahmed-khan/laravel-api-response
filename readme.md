@@ -1,4 +1,4 @@
-# Laravel Package Installation Guide
+# API Response Package Installation Guide
 
 This guide will walk you through the installation and setup process for integrating the package into your Laravel project.
 
