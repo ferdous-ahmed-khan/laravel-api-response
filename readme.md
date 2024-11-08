@@ -49,7 +49,7 @@ Once the package is installed, you can start using its features. For example, to
 
 ```php
 
-use ResponseHelper;
+use ApiResponse;
 
 
 ```
