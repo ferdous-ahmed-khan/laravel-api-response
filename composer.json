@@ -1,17 +1,27 @@
 {
-    "name": "ferdous-ahmed-khan/laravel-api-response",
-    "description": "A Laravel package providing standardized JSON response helpers for success and error handling, with functions for quick, consistent API responses.",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "FerdousAhmedKhan\\LaravelApiResponse\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Ferdous Ahmed Khan"
-        }
-    ],
-    "require": {}
+  "name": "ferdous-ahmed-khan/laravel-api-response",
+  "description": "A Laravel package providing standardized JSON response helpers for success and error handling, with functions for quick, consistent API responses.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "FerdousAhmedKhan\\LaravelApiResponse\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ferdous Ahmed Khan"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "FerdousAhmedKhan\\LaravelApiResponse\\ResponseHelperServiceProvider"
+      ],
+      "aliases": {
+        "ApiResponse": "FerdousAhmedKhan\\LaravelApiResponse\\ResponseHelperFacade"
+      }
+    }
+  },
+  "require": {}
 }
